@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بطاقة تهنئة بالعيد</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🎉 أدخل اسمك لإنشاء بطاقة تهنئة 🎉</h2>
+        <input type="text" id="nameInput" placeholder="اكتب اسمك هنا">
+        <button onclick="generateCard()">إنشاء البطاقة</button>
+
+        <div class="card-container" id="cardContainer" style="display: none;">
+            <img src="eid-card.jpg" alt="بطاقة تهنئة">
+            <div class="name-text" id="nameText"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
